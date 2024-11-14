@@ -49,5 +49,12 @@ namespace CRUD_MYSQL_C_
             objetoAlumnos.modificarAlumno(txtid, txtnombres, txtapellido);
             objetoAlumnos.MostrarAlumnos(dgvalumnos);
         }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+            Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
+            objetoAlumnos.eliminarAlumno(txtid);
+            objetoAlumnos.MostrarAlumnos(dgvalumnos);
+        }
     }
 }

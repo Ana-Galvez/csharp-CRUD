@@ -82,6 +82,7 @@
             this.btneliminar.TabIndex = 9;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // btnprueba
             // 
@@ -132,6 +133,7 @@
             // 
             this.txtid.Location = new System.Drawing.Point(109, 59);
             this.txtid.Name = "txtid";
+            this.txtid.ReadOnly = true;
             this.txtid.Size = new System.Drawing.Size(277, 20);
             this.txtid.TabIndex = 3;
             // 

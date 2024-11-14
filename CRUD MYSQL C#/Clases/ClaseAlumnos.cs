@@ -76,5 +76,22 @@ namespace CRUD_MYSQL_C_.Clases
                 MessageBox.Show("No se pudo modificar la información. Error: " + ex.ToString());
             }
         }
+        public void eliminarAlumno(TextBox id)
+        {
+            try
+            {
+                ClaseConexion objetoConexion = new ClaseConexion();
+                string query = "delete from alumnos where id='" + id.Text + "';";
+                MySqlCommand command = new MySqlCommand(query, objetoConexion.EstablecerConexion());
+                MySqlDataReader reader = command.ExecuteReader();
+                MessageBox.Show("Los datos se eliminaron con ÉXITO");
+
+                objetoConexion.CerrarConexion();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pudo eliminar la información. Error: " + ex.ToString());
+            }
+        }
     }
 }
