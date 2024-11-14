@@ -111,6 +111,7 @@
             this.dgvalumnos.ReadOnly = true;
             this.dgvalumnos.Size = new System.Drawing.Size(397, 384);
             this.dgvalumnos.TabIndex = 6;
+            this.dgvalumnos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvalumnos_CellDoubleClick);
             // 
             // txtnombres
             // 

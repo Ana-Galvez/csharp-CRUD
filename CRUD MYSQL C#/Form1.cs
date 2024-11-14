@@ -35,5 +35,12 @@ namespace CRUD_MYSQL_C_
             objetoAlumnos.guardarAlumnos(txtnombres, txtapellido);
             objetoAlumnos.MostrarAlumnos(dgvalumnos);
         }
+
+        private void dgvalumnos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
+            objetoAlumnos.seleccionarAlumnos(dgvalumnos, txtid, txtnombres, txtapellido);
+
+        }
     }
 }
