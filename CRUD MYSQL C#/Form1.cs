@@ -42,5 +42,12 @@ namespace CRUD_MYSQL_C_
             objetoAlumnos.seleccionarAlumnos(dgvalumnos, txtid, txtnombres, txtapellido);
 
         }
+
+        private void btnmodificar_Click(object sender, EventArgs e)
+        {
+            Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
+            objetoAlumnos.modificarAlumno(txtid, txtnombres, txtapellido);
+            objetoAlumnos.MostrarAlumnos(dgvalumnos);
+        }
     }
 }

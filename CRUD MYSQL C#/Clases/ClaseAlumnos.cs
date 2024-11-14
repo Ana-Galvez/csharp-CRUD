@@ -58,5 +58,23 @@ namespace CRUD_MYSQL_C_.Clases
                 MessageBox.Show("No se pudo seleccionar la información. Error: " + ex.ToString());
             }
         }
+        public void modificarAlumno(TextBox id,TextBox nombres, TextBox apellido)
+        {
+            try
+            {
+                ClaseConexion objetoConexion = new ClaseConexion();
+                string query = "update alumnos set nombres='" +
+                    nombres.Text + "' , apellido='" + apellido.Text + "' where id='" + id.Text+"';";
+                MySqlCommand command = new MySqlCommand(query, objetoConexion.EstablecerConexion());
+                MySqlDataReader reader = command.ExecuteReader();
+                MessageBox.Show("Los datos se modificaron con ÉXITO");
+
+                objetoConexion.CerrarConexion();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pudo modificar la información. Error: " + ex.ToString());
+            }
+        }
     }
 }
