@@ -38,6 +38,7 @@ namespace CRUD_MYSQL_C_.Clases
                 MySqlCommand command = new MySqlCommand(query,objetoConexion.EstablecerConexion());
                 MySqlDataReader reader = command.ExecuteReader();
                 MessageBox.Show("Los datos se guardaron con ÉXITO");
+
                 objetoConexion.CerrarConexion();
             }
             catch (Exception ex)
