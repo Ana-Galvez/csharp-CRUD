@@ -28,5 +28,11 @@ namespace CRUD_MYSQL_C_
             Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
             objetoAlumnos.MostrarAlumnos(dgvalumnos);
         }
+
+        private void btnguardar_Click(object sender, EventArgs e)
+        {
+            Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
+            objetoAlumnos.guardarAlumnos(txtnombres, txtapellido);
+        }
     }
 }

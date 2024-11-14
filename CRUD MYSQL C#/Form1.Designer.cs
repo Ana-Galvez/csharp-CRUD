@@ -99,12 +99,16 @@
             this.btnguardar.TabIndex = 7;
             this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = true;
+            this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click);
             // 
             // dgvalumnos
             // 
+            this.dgvalumnos.AllowUserToAddRows = false;
+            this.dgvalumnos.AllowUserToDeleteRows = false;
             this.dgvalumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvalumnos.Location = new System.Drawing.Point(421, 22);
             this.dgvalumnos.Name = "dgvalumnos";
+            this.dgvalumnos.ReadOnly = true;
             this.dgvalumnos.Size = new System.Drawing.Size(397, 384);
             this.dgvalumnos.TabIndex = 6;
             // 

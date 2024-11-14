@@ -27,5 +27,23 @@ namespace CRUD_MYSQL_C_.Clases
                 MessageBox.Show("No se pudo mostrar la información de la tabla. Error: " + ex.ToString());
             }
         }
+        public void guardarAlumnos(TextBox nombres,TextBox apellido
+            )
+        {
+            try
+            {
+                ClaseConexion objetoConexion = new ClaseConexion();
+                string query = "insert into alumnos (nombres,apellido)" + 
+                    "values ('" + nombres.Text + "','" + apellido.Text + "');";
+                MySqlCommand command = new MySqlCommand(query,objetoConexion.EstablecerConexion());
+                MySqlDataReader reader = command.ExecuteReader();
+                MessageBox.Show("Los datos se guardaron con ÉXITO");
+                objetoConexion.CerrarConexion();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pudo guardar la información. Error: " + ex.ToString());
+            }
+        }
     }
 }
