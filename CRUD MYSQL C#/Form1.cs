@@ -34,6 +34,7 @@ namespace CRUD_MYSQL_C_
             Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
             objetoAlumnos.guardarAlumnos(txtnombres, txtapellido);
             objetoAlumnos.MostrarAlumnos(dgvalumnos);
+            objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
         }
 
         private void dgvalumnos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -48,6 +49,7 @@ namespace CRUD_MYSQL_C_
             Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
             objetoAlumnos.modificarAlumno(txtid, txtnombres, txtapellido);
             objetoAlumnos.MostrarAlumnos(dgvalumnos);
+            objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
         }
 
         private void btneliminar_Click(object sender, EventArgs e)
@@ -55,6 +57,7 @@ namespace CRUD_MYSQL_C_
             Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
             objetoAlumnos.eliminarAlumno(txtid);
             objetoAlumnos.MostrarAlumnos(dgvalumnos);
+            objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
         }
     }
 }

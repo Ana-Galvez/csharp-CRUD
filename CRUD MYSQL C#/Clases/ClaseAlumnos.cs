@@ -93,5 +93,11 @@ namespace CRUD_MYSQL_C_.Clases
                 MessageBox.Show("No se pudo eliminar la información. Error: " + ex.ToString());
             }
         }
+        public void limpiarTextBox(TextBox id, TextBox nombres, TextBox apellido)
+        {
+            id.Text = "";
+            nombres.Text = "";
+            apellido.Text = "";
+        }
     }
 }
