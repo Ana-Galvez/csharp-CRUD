@@ -28,163 +28,163 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.gbalumno = new System.Windows.Forms.GroupBox();
+            this.lblid = new System.Windows.Forms.Label();
+            this.lblapellido = new System.Windows.Forms.Label();
+            this.lblnombres = new System.Windows.Forms.Label();
+            this.txtid = new System.Windows.Forms.TextBox();
+            this.txtapellido = new System.Windows.Forms.TextBox();
+            this.txtnombres = new System.Windows.Forms.TextBox();
+            this.dgvalumnos = new System.Windows.Forms.DataGridView();
+            this.btnguardar = new System.Windows.Forms.Button();
+            this.btnprueba = new System.Windows.Forms.Button();
+            this.btneliminar = new System.Windows.Forms.Button();
+            this.btnmodificar = new System.Windows.Forms.Button();
+            this.gbalumno.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvalumnos)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // gbalumno
             // 
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(81, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(824, 424);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.gbalumno.Controls.Add(this.btnmodificar);
+            this.gbalumno.Controls.Add(this.btneliminar);
+            this.gbalumno.Controls.Add(this.btnprueba);
+            this.gbalumno.Controls.Add(this.btnguardar);
+            this.gbalumno.Controls.Add(this.dgvalumnos);
+            this.gbalumno.Controls.Add(this.txtnombres);
+            this.gbalumno.Controls.Add(this.txtapellido);
+            this.gbalumno.Controls.Add(this.txtid);
+            this.gbalumno.Controls.Add(this.lblnombres);
+            this.gbalumno.Controls.Add(this.lblapellido);
+            this.gbalumno.Controls.Add(this.lblid);
+            this.gbalumno.Location = new System.Drawing.Point(81, 12);
+            this.gbalumno.Name = "gbalumno";
+            this.gbalumno.Size = new System.Drawing.Size(824, 424);
+            this.gbalumno.TabIndex = 0;
+            this.gbalumno.TabStop = false;
+            this.gbalumno.Text = "Datos del Alumno";
             // 
-            // label1
+            // lblid
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 59);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lblid.AutoSize = true;
+            this.lblid.Location = new System.Drawing.Point(18, 59);
+            this.lblid.Name = "lblid";
+            this.lblid.Size = new System.Drawing.Size(35, 13);
+            this.lblid.TabIndex = 0;
+            this.lblid.Text = "label1";
             // 
-            // label2
+            // lblapellido
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 161);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lblapellido.AutoSize = true;
+            this.lblapellido.Location = new System.Drawing.Point(18, 157);
+            this.lblapellido.Name = "lblapellido";
+            this.lblapellido.Size = new System.Drawing.Size(35, 13);
+            this.lblapellido.TabIndex = 1;
+            this.lblapellido.Text = "label2";
             // 
-            // label3
+            // lblnombres
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 114);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lblnombres.AutoSize = true;
+            this.lblnombres.Location = new System.Drawing.Point(18, 107);
+            this.lblnombres.Name = "lblnombres";
+            this.lblnombres.Size = new System.Drawing.Size(35, 13);
+            this.lblnombres.TabIndex = 2;
+            this.lblnombres.Text = "label3";
             // 
-            // textBox1
+            // txtid
             // 
-            this.textBox1.Location = new System.Drawing.Point(109, 67);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(277, 20);
-            this.textBox1.TabIndex = 3;
+            this.txtid.Location = new System.Drawing.Point(109, 67);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(277, 20);
+            this.txtid.TabIndex = 3;
             // 
-            // textBox2
+            // txtapellido
             // 
-            this.textBox2.Location = new System.Drawing.Point(109, 154);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(277, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtapellido.Location = new System.Drawing.Point(109, 154);
+            this.txtapellido.Name = "txtapellido";
+            this.txtapellido.Size = new System.Drawing.Size(277, 20);
+            this.txtapellido.TabIndex = 4;
             // 
-            // textBox3
+            // txtnombres
             // 
-            this.textBox3.Location = new System.Drawing.Point(109, 107);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(277, 20);
-            this.textBox3.TabIndex = 5;
+            this.txtnombres.Location = new System.Drawing.Point(109, 107);
+            this.txtnombres.Name = "txtnombres";
+            this.txtnombres.Size = new System.Drawing.Size(277, 20);
+            this.txtnombres.TabIndex = 5;
             // 
-            // dataGridView1
+            // dgvalumnos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(421, 22);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(397, 384);
-            this.dataGridView1.TabIndex = 6;
+            this.dgvalumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvalumnos.Location = new System.Drawing.Point(421, 22);
+            this.dgvalumnos.Name = "dgvalumnos";
+            this.dgvalumnos.Size = new System.Drawing.Size(397, 384);
+            this.dgvalumnos.TabIndex = 6;
             // 
-            // button1
+            // btnguardar
             // 
-            this.button1.Location = new System.Drawing.Point(46, 213);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(311, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnguardar.Location = new System.Drawing.Point(46, 213);
+            this.btnguardar.Name = "btnguardar";
+            this.btnguardar.Size = new System.Drawing.Size(311, 23);
+            this.btnguardar.TabIndex = 7;
+            this.btnguardar.Text = "button1";
+            this.btnguardar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnprueba
             // 
-            this.button2.Location = new System.Drawing.Point(167, 344);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnprueba.Location = new System.Drawing.Point(167, 344);
+            this.btnprueba.Name = "btnprueba";
+            this.btnprueba.Size = new System.Drawing.Size(75, 23);
+            this.btnprueba.TabIndex = 8;
+            this.btnprueba.Text = "button2";
+            this.btnprueba.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btneliminar
             // 
-            this.button3.Location = new System.Drawing.Point(227, 265);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btneliminar.Location = new System.Drawing.Point(227, 265);
+            this.btneliminar.Name = "btneliminar";
+            this.btneliminar.Size = new System.Drawing.Size(130, 23);
+            this.btneliminar.TabIndex = 9;
+            this.btneliminar.Text = "button3";
+            this.btneliminar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnmodificar
             // 
-            this.button4.Location = new System.Drawing.Point(49, 265);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(130, 23);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnmodificar.Location = new System.Drawing.Point(49, 265);
+            this.btnmodificar.Name = "btnmodificar";
+            this.btnmodificar.Size = new System.Drawing.Size(130, 23);
+            this.btnmodificar.TabIndex = 10;
+            this.btnmodificar.Text = "button4";
+            this.btnmodificar.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(917, 450);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gbalumno);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.gbalumno.ResumeLayout(false);
+            this.gbalumno.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvalumnos)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.GroupBox gbalumno;
+        private System.Windows.Forms.TextBox txtnombres;
+        private System.Windows.Forms.TextBox txtapellido;
+        private System.Windows.Forms.TextBox txtid;
+        private System.Windows.Forms.Label lblnombres;
+        private System.Windows.Forms.Label lblapellido;
+        private System.Windows.Forms.Label lblid;
+        private System.Windows.Forms.Button btnmodificar;
+        private System.Windows.Forms.Button btneliminar;
+        private System.Windows.Forms.Button btnprueba;
+        private System.Windows.Forms.Button btnguardar;
+        private System.Windows.Forms.DataGridView dgvalumnos;
     }
 }
 
