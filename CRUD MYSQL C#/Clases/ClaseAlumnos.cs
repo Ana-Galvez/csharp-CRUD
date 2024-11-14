@@ -27,8 +27,7 @@ namespace CRUD_MYSQL_C_.Clases
                 MessageBox.Show("No se pudo mostrar la información de la tabla. Error: " + ex.ToString());
             }
         }
-        public void guardarAlumnos(TextBox nombres,TextBox apellido
-            )
+        public void guardarAlumnos(TextBox nombres,TextBox apellido)
         {
             try
             {
@@ -44,6 +43,19 @@ namespace CRUD_MYSQL_C_.Clases
             catch (Exception ex)
             {
                 MessageBox.Show("No se pudo guardar la información. Error: " + ex.ToString());
+            }
+        }
+        public void seleccionarAlumnos(DataGridView tablaAlumnos, TextBox id, TextBox nombres, TextBox apellido)
+        {
+            try
+            {
+                id.Text= tablaAlumnos.CurrentRow.Cells[0].Value.ToString();
+                nombres.Text= tablaAlumnos.CurrentRow.Cells[1].Value.ToString();
+                apellido.Text= tablaAlumnos.CurrentRow.Cells[2].Value.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pudo seleccionar la información. Error: " + ex.ToString());
             }
         }
     }
