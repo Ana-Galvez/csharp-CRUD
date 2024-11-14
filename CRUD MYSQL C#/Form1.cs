@@ -16,5 +16,6 @@ namespace CRUD_MYSQL_C_
         {
             InitializeComponent();
         }
+
     }
 }

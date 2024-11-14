@@ -69,31 +69,31 @@
             this.lblid.AutoSize = true;
             this.lblid.Location = new System.Drawing.Point(18, 59);
             this.lblid.Name = "lblid";
-            this.lblid.Size = new System.Drawing.Size(35, 13);
+            this.lblid.Size = new System.Drawing.Size(56, 13);
             this.lblid.TabIndex = 0;
-            this.lblid.Text = "label1";
+            this.lblid.Text = "ID Alumno";
             // 
             // lblapellido
             // 
             this.lblapellido.AutoSize = true;
             this.lblapellido.Location = new System.Drawing.Point(18, 157);
             this.lblapellido.Name = "lblapellido";
-            this.lblapellido.Size = new System.Drawing.Size(35, 13);
+            this.lblapellido.Size = new System.Drawing.Size(44, 13);
             this.lblapellido.TabIndex = 1;
-            this.lblapellido.Text = "label2";
+            this.lblapellido.Text = "Apellido";
             // 
             // lblnombres
             // 
             this.lblnombres.AutoSize = true;
             this.lblnombres.Location = new System.Drawing.Point(18, 107);
             this.lblnombres.Name = "lblnombres";
-            this.lblnombres.Size = new System.Drawing.Size(35, 13);
+            this.lblnombres.Size = new System.Drawing.Size(49, 13);
             this.lblnombres.TabIndex = 2;
-            this.lblnombres.Text = "label3";
+            this.lblnombres.Text = "Nombres";
             // 
             // txtid
             // 
-            this.txtid.Location = new System.Drawing.Point(109, 67);
+            this.txtid.Location = new System.Drawing.Point(109, 59);
             this.txtid.Name = "txtid";
             this.txtid.Size = new System.Drawing.Size(277, 20);
             this.txtid.TabIndex = 3;
@@ -126,7 +126,7 @@
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(311, 23);
             this.btnguardar.TabIndex = 7;
-            this.btnguardar.Text = "button1";
+            this.btnguardar.Text = "Guardar";
             this.btnguardar.UseVisualStyleBackColor = true;
             // 
             // btnprueba
@@ -135,7 +135,7 @@
             this.btnprueba.Name = "btnprueba";
             this.btnprueba.Size = new System.Drawing.Size(75, 23);
             this.btnprueba.TabIndex = 8;
-            this.btnprueba.Text = "button2";
+            this.btnprueba.Text = "Prueba";
             this.btnprueba.UseVisualStyleBackColor = true;
             // 
             // btneliminar
@@ -144,7 +144,7 @@
             this.btneliminar.Name = "btneliminar";
             this.btneliminar.Size = new System.Drawing.Size(130, 23);
             this.btneliminar.TabIndex = 9;
-            this.btneliminar.Text = "button3";
+            this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = true;
             // 
             // btnmodificar
@@ -153,7 +153,7 @@
             this.btnmodificar.Name = "btnmodificar";
             this.btnmodificar.Size = new System.Drawing.Size(130, 23);
             this.btnmodificar.TabIndex = 10;
-            this.btnmodificar.Text = "button4";
+            this.btnmodificar.Text = "Modificar";
             this.btnmodificar.UseVisualStyleBackColor = true;
             // 
             // Form1
