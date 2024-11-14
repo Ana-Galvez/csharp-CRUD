@@ -17,10 +17,16 @@ namespace CRUD_MYSQL_C_
             InitializeComponent();
         }
 
-        private void btnprueba_Click(object sender, EventArgs e)
+        //private void btnprueba_Click(object sender, EventArgs e)
+        //{
+        //    Clases.ClaseConexion objetoConexion = new Clases.ClaseConexion();
+        //    objetoConexion.EstablecerConexion();
+        //}
+
+        private void Form1_Load(object sender, EventArgs e)
         {
-            Clases.ClaseConexion objetoConexion = new Clases.ClaseConexion();
-            objetoConexion.EstablecerConexion();
+            Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
+            objetoAlumnos.MostrarAlumnos(dgvalumnos);
         }
     }
 }

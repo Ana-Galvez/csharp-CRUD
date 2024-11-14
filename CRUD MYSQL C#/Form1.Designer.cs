@@ -90,7 +90,6 @@
             this.btnprueba.TabIndex = 8;
             this.btnprueba.Text = "Prueba";
             this.btnprueba.UseVisualStyleBackColor = true;
-            this.btnprueba.Click += new System.EventHandler(this.btnprueba_Click);
             // 
             // btnguardar
             // 
@@ -165,6 +164,7 @@
             this.Controls.Add(this.gbalumno);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.gbalumno.ResumeLayout(false);
             this.gbalumno.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvalumnos)).EndInit();

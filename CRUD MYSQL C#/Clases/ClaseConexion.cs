@@ -25,7 +25,7 @@ namespace CRUD_MYSQL_C_.Clases
             {
                 conexion.ConnectionString = cadenaConexion;
                 conexion.Open();
-                MessageBox.Show("Conexión EXITOSA");
+                //MessageBox.Show("Conexión EXITOSA");
             }
             catch(Exception ex) {
                  MessageBox.Show("No se puedo conectar a la base de datos. Error: " + ex.ToString());
