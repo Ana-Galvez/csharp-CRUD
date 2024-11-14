@@ -18,7 +18,7 @@ namespace CRUD_MYSQL_C_.Clases
         static string port = "3306";
         static string db = "escuela";
 
-        string cadenaConexion = "server: " + server + ";" + "port: " + port + ";" + "user: " + user + ";" + "password: " + password + ";" + "database: " + db + ";";
+        string cadenaConexion = "server= " + server + ";" + "port= " + port + ";" + "user= " + user + ";" + "password= " + password + ";" + "database= " + db + ";";
 
         public MySqlConnection EstablecerConexion(){
             try

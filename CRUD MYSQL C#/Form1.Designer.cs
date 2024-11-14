@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.gbalumno = new System.Windows.Forms.GroupBox();
-            this.lblid = new System.Windows.Forms.Label();
-            this.lblapellido = new System.Windows.Forms.Label();
-            this.lblnombres = new System.Windows.Forms.Label();
-            this.txtid = new System.Windows.Forms.TextBox();
-            this.txtapellido = new System.Windows.Forms.TextBox();
-            this.txtnombres = new System.Windows.Forms.TextBox();
-            this.dgvalumnos = new System.Windows.Forms.DataGridView();
-            this.btnguardar = new System.Windows.Forms.Button();
-            this.btnprueba = new System.Windows.Forms.Button();
-            this.btneliminar = new System.Windows.Forms.Button();
             this.btnmodificar = new System.Windows.Forms.Button();
+            this.btneliminar = new System.Windows.Forms.Button();
+            this.btnprueba = new System.Windows.Forms.Button();
+            this.btnguardar = new System.Windows.Forms.Button();
+            this.dgvalumnos = new System.Windows.Forms.DataGridView();
+            this.txtnombres = new System.Windows.Forms.TextBox();
+            this.txtapellido = new System.Windows.Forms.TextBox();
+            this.txtid = new System.Windows.Forms.TextBox();
+            this.lblnombres = new System.Windows.Forms.Label();
+            this.lblapellido = new System.Windows.Forms.Label();
+            this.lblid = new System.Windows.Forms.Label();
             this.gbalumno.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvalumnos)).BeginInit();
             this.SuspendLayout();
@@ -64,79 +64,14 @@
             this.gbalumno.TabStop = false;
             this.gbalumno.Text = "Datos del Alumno";
             // 
-            // lblid
+            // btnmodificar
             // 
-            this.lblid.AutoSize = true;
-            this.lblid.Location = new System.Drawing.Point(18, 59);
-            this.lblid.Name = "lblid";
-            this.lblid.Size = new System.Drawing.Size(56, 13);
-            this.lblid.TabIndex = 0;
-            this.lblid.Text = "ID Alumno";
-            // 
-            // lblapellido
-            // 
-            this.lblapellido.AutoSize = true;
-            this.lblapellido.Location = new System.Drawing.Point(18, 157);
-            this.lblapellido.Name = "lblapellido";
-            this.lblapellido.Size = new System.Drawing.Size(44, 13);
-            this.lblapellido.TabIndex = 1;
-            this.lblapellido.Text = "Apellido";
-            // 
-            // lblnombres
-            // 
-            this.lblnombres.AutoSize = true;
-            this.lblnombres.Location = new System.Drawing.Point(18, 107);
-            this.lblnombres.Name = "lblnombres";
-            this.lblnombres.Size = new System.Drawing.Size(49, 13);
-            this.lblnombres.TabIndex = 2;
-            this.lblnombres.Text = "Nombres";
-            // 
-            // txtid
-            // 
-            this.txtid.Location = new System.Drawing.Point(109, 59);
-            this.txtid.Name = "txtid";
-            this.txtid.Size = new System.Drawing.Size(277, 20);
-            this.txtid.TabIndex = 3;
-            // 
-            // txtapellido
-            // 
-            this.txtapellido.Location = new System.Drawing.Point(109, 154);
-            this.txtapellido.Name = "txtapellido";
-            this.txtapellido.Size = new System.Drawing.Size(277, 20);
-            this.txtapellido.TabIndex = 4;
-            // 
-            // txtnombres
-            // 
-            this.txtnombres.Location = new System.Drawing.Point(109, 107);
-            this.txtnombres.Name = "txtnombres";
-            this.txtnombres.Size = new System.Drawing.Size(277, 20);
-            this.txtnombres.TabIndex = 5;
-            // 
-            // dgvalumnos
-            // 
-            this.dgvalumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvalumnos.Location = new System.Drawing.Point(421, 22);
-            this.dgvalumnos.Name = "dgvalumnos";
-            this.dgvalumnos.Size = new System.Drawing.Size(397, 384);
-            this.dgvalumnos.TabIndex = 6;
-            // 
-            // btnguardar
-            // 
-            this.btnguardar.Location = new System.Drawing.Point(46, 213);
-            this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(311, 23);
-            this.btnguardar.TabIndex = 7;
-            this.btnguardar.Text = "Guardar";
-            this.btnguardar.UseVisualStyleBackColor = true;
-            // 
-            // btnprueba
-            // 
-            this.btnprueba.Location = new System.Drawing.Point(167, 344);
-            this.btnprueba.Name = "btnprueba";
-            this.btnprueba.Size = new System.Drawing.Size(75, 23);
-            this.btnprueba.TabIndex = 8;
-            this.btnprueba.Text = "Prueba";
-            this.btnprueba.UseVisualStyleBackColor = true;
+            this.btnmodificar.Location = new System.Drawing.Point(49, 265);
+            this.btnmodificar.Name = "btnmodificar";
+            this.btnmodificar.Size = new System.Drawing.Size(130, 23);
+            this.btnmodificar.TabIndex = 10;
+            this.btnmodificar.Text = "Modificar";
+            this.btnmodificar.UseVisualStyleBackColor = true;
             // 
             // btneliminar
             // 
@@ -147,14 +82,80 @@
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = true;
             // 
-            // btnmodificar
+            // btnprueba
             // 
-            this.btnmodificar.Location = new System.Drawing.Point(49, 265);
-            this.btnmodificar.Name = "btnmodificar";
-            this.btnmodificar.Size = new System.Drawing.Size(130, 23);
-            this.btnmodificar.TabIndex = 10;
-            this.btnmodificar.Text = "Modificar";
-            this.btnmodificar.UseVisualStyleBackColor = true;
+            this.btnprueba.Location = new System.Drawing.Point(167, 344);
+            this.btnprueba.Name = "btnprueba";
+            this.btnprueba.Size = new System.Drawing.Size(75, 23);
+            this.btnprueba.TabIndex = 8;
+            this.btnprueba.Text = "Prueba";
+            this.btnprueba.UseVisualStyleBackColor = true;
+            this.btnprueba.Click += new System.EventHandler(this.btnprueba_Click);
+            // 
+            // btnguardar
+            // 
+            this.btnguardar.Location = new System.Drawing.Point(46, 213);
+            this.btnguardar.Name = "btnguardar";
+            this.btnguardar.Size = new System.Drawing.Size(311, 23);
+            this.btnguardar.TabIndex = 7;
+            this.btnguardar.Text = "Guardar";
+            this.btnguardar.UseVisualStyleBackColor = true;
+            // 
+            // dgvalumnos
+            // 
+            this.dgvalumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvalumnos.Location = new System.Drawing.Point(421, 22);
+            this.dgvalumnos.Name = "dgvalumnos";
+            this.dgvalumnos.Size = new System.Drawing.Size(397, 384);
+            this.dgvalumnos.TabIndex = 6;
+            // 
+            // txtnombres
+            // 
+            this.txtnombres.Location = new System.Drawing.Point(109, 107);
+            this.txtnombres.Name = "txtnombres";
+            this.txtnombres.Size = new System.Drawing.Size(277, 20);
+            this.txtnombres.TabIndex = 5;
+            // 
+            // txtapellido
+            // 
+            this.txtapellido.Location = new System.Drawing.Point(109, 154);
+            this.txtapellido.Name = "txtapellido";
+            this.txtapellido.Size = new System.Drawing.Size(277, 20);
+            this.txtapellido.TabIndex = 4;
+            // 
+            // txtid
+            // 
+            this.txtid.Location = new System.Drawing.Point(109, 59);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(277, 20);
+            this.txtid.TabIndex = 3;
+            // 
+            // lblnombres
+            // 
+            this.lblnombres.AutoSize = true;
+            this.lblnombres.Location = new System.Drawing.Point(18, 107);
+            this.lblnombres.Name = "lblnombres";
+            this.lblnombres.Size = new System.Drawing.Size(49, 13);
+            this.lblnombres.TabIndex = 2;
+            this.lblnombres.Text = "Nombres";
+            // 
+            // lblapellido
+            // 
+            this.lblapellido.AutoSize = true;
+            this.lblapellido.Location = new System.Drawing.Point(18, 157);
+            this.lblapellido.Name = "lblapellido";
+            this.lblapellido.Size = new System.Drawing.Size(44, 13);
+            this.lblapellido.TabIndex = 1;
+            this.lblapellido.Text = "Apellido";
+            // 
+            // lblid
+            // 
+            this.lblid.AutoSize = true;
+            this.lblid.Location = new System.Drawing.Point(18, 59);
+            this.lblid.Name = "lblid";
+            this.lblid.Size = new System.Drawing.Size(56, 13);
+            this.lblid.TabIndex = 0;
+            this.lblid.Text = "ID Alumno";
             // 
             // Form1
             // 

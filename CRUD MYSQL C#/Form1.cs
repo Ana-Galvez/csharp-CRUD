@@ -17,5 +17,10 @@ namespace CRUD_MYSQL_C_
             InitializeComponent();
         }
 
+        private void btnprueba_Click(object sender, EventArgs e)
+        {
+            Clases.ClaseConexion objetoConexion = new Clases.ClaseConexion();
+            objetoConexion.EstablecerConexion();
+        }
     }
 }
