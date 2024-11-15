@@ -104,15 +104,19 @@ namespace CRUD_MYSQL_C_.Clases
             try
             {
                 ClaseConexion objetoConexion = new ClaseConexion();
-                string query = "select * from alumnos where nombres like '" + buscarNombre.Text + "%';";
-                MySqlCommand command = new MySqlCommand(query, objetoConexion.EstablecerConexion());
-                MySqlDataReader reader = command.ExecuteReader();
+                DataGridView tablaAlumnos = new DataGridView();
+                DataTable dataTable = new DataTable();
+                tablaAlumnos.DataSource = dataTable;
+                DataView dv = dataTable.DefaultView;
+                dv.RowFilter = string.Format("nombres like '%{0}%'",buscarNombre.Text);
+                tablaAlumnos.DataSource = dv.ToTable();
+                //string query = "select * from alumnos where nombres like '" + buscarNombre + "%';";
 
                 objetoConexion.CerrarConexion();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("No se pudo mostrar la información solicitada. Error: " + ex.ToString());
+                MessageBox.Show("No se pudo mostrar la información solicitada. Error: " + ex.Message);
             }
         }
     }

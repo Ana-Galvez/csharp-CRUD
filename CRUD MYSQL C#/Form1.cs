@@ -64,8 +64,6 @@ namespace CRUD_MYSQL_C_
         {
             Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
             objetoAlumnos.buscarAlumnoXNombre(txtbuscarnombre);
-            objetoAlumnos.MostrarAlumnos(dgvalumnos);
-            objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
         }
     }
 }
