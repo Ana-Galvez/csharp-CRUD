@@ -59,5 +59,7 @@ namespace CRUD_MYSQL_C_
             objetoAlumnos.MostrarAlumnos(dgvalumnos);
             objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
         }
+
+
     }
 }

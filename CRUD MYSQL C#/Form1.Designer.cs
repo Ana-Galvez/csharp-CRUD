@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             this.gbalumno = new System.Windows.Forms.GroupBox();
+            this.lblbuscarnombre = new System.Windows.Forms.Label();
+            this.lblbuscarapellido = new System.Windows.Forms.Label();
             this.btnmodificar = new System.Windows.Forms.Button();
             this.btneliminar = new System.Windows.Forms.Button();
-            this.btnprueba = new System.Windows.Forms.Button();
             this.btnguardar = new System.Windows.Forms.Button();
             this.dgvalumnos = new System.Windows.Forms.DataGridView();
             this.txtnombres = new System.Windows.Forms.TextBox();
@@ -40,15 +41,22 @@
             this.lblnombres = new System.Windows.Forms.Label();
             this.lblapellido = new System.Windows.Forms.Label();
             this.lblid = new System.Windows.Forms.Label();
+            this.txtbuscarnombre = new System.Windows.Forms.TextBox();
+            this.txtbuscarapellido = new System.Windows.Forms.TextBox();
+            this.btnbuscar = new System.Windows.Forms.Button();
             this.gbalumno.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvalumnos)).BeginInit();
             this.SuspendLayout();
             // 
             // gbalumno
             // 
+            this.gbalumno.Controls.Add(this.btnbuscar);
+            this.gbalumno.Controls.Add(this.txtbuscarapellido);
+            this.gbalumno.Controls.Add(this.txtbuscarnombre);
+            this.gbalumno.Controls.Add(this.lblbuscarnombre);
+            this.gbalumno.Controls.Add(this.lblbuscarapellido);
             this.gbalumno.Controls.Add(this.btnmodificar);
             this.gbalumno.Controls.Add(this.btneliminar);
-            this.gbalumno.Controls.Add(this.btnprueba);
             this.gbalumno.Controls.Add(this.btnguardar);
             this.gbalumno.Controls.Add(this.dgvalumnos);
             this.gbalumno.Controls.Add(this.txtnombres);
@@ -59,10 +67,28 @@
             this.gbalumno.Controls.Add(this.lblid);
             this.gbalumno.Location = new System.Drawing.Point(81, 12);
             this.gbalumno.Name = "gbalumno";
-            this.gbalumno.Size = new System.Drawing.Size(824, 424);
+            this.gbalumno.Size = new System.Drawing.Size(824, 519);
             this.gbalumno.TabIndex = 0;
             this.gbalumno.TabStop = false;
             this.gbalumno.Text = "Datos del Alumno";
+            // 
+            // lblbuscarnombre
+            // 
+            this.lblbuscarnombre.AutoSize = true;
+            this.lblbuscarnombre.Location = new System.Drawing.Point(18, 351);
+            this.lblbuscarnombre.Name = "lblbuscarnombre";
+            this.lblbuscarnombre.Size = new System.Drawing.Size(98, 13);
+            this.lblbuscarnombre.TabIndex = 12;
+            this.lblbuscarnombre.Text = "Buscar por Nombre";
+            // 
+            // lblbuscarapellido
+            // 
+            this.lblbuscarapellido.AutoSize = true;
+            this.lblbuscarapellido.Location = new System.Drawing.Point(18, 393);
+            this.lblbuscarapellido.Name = "lblbuscarapellido";
+            this.lblbuscarapellido.Size = new System.Drawing.Size(98, 13);
+            this.lblbuscarapellido.TabIndex = 11;
+            this.lblbuscarapellido.Text = "Buscar por Apellido";
             // 
             // btnmodificar
             // 
@@ -84,15 +110,6 @@
             this.btneliminar.UseVisualStyleBackColor = true;
             this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
-            // btnprueba
-            // 
-            this.btnprueba.Location = new System.Drawing.Point(167, 344);
-            this.btnprueba.Name = "btnprueba";
-            this.btnprueba.Size = new System.Drawing.Size(75, 23);
-            this.btnprueba.TabIndex = 8;
-            this.btnprueba.Text = "Prueba";
-            this.btnprueba.UseVisualStyleBackColor = true;
-            // 
             // btnguardar
             // 
             this.btnguardar.Location = new System.Drawing.Point(46, 213);
@@ -111,7 +128,7 @@
             this.dgvalumnos.Location = new System.Drawing.Point(421, 22);
             this.dgvalumnos.Name = "dgvalumnos";
             this.dgvalumnos.ReadOnly = true;
-            this.dgvalumnos.Size = new System.Drawing.Size(397, 384);
+            this.dgvalumnos.Size = new System.Drawing.Size(397, 445);
             this.dgvalumnos.TabIndex = 6;
             this.dgvalumnos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvalumnos_CellDoubleClick);
             // 
@@ -164,11 +181,34 @@
             this.lblid.TabIndex = 0;
             this.lblid.Text = "ID Alumno";
             // 
+            // txtbuscarnombre
+            // 
+            this.txtbuscarnombre.Location = new System.Drawing.Point(138, 344);
+            this.txtbuscarnombre.Name = "txtbuscarnombre";
+            this.txtbuscarnombre.Size = new System.Drawing.Size(248, 20);
+            this.txtbuscarnombre.TabIndex = 13;
+            // 
+            // txtbuscarapellido
+            // 
+            this.txtbuscarapellido.Location = new System.Drawing.Point(138, 390);
+            this.txtbuscarapellido.Name = "txtbuscarapellido";
+            this.txtbuscarapellido.Size = new System.Drawing.Size(248, 20);
+            this.txtbuscarapellido.TabIndex = 14;
+            // 
+            // btnbuscar
+            // 
+            this.btnbuscar.Location = new System.Drawing.Point(138, 444);
+            this.btnbuscar.Name = "btnbuscar";
+            this.btnbuscar.Size = new System.Drawing.Size(248, 23);
+            this.btnbuscar.TabIndex = 15;
+            this.btnbuscar.Text = "Buscar";
+            this.btnbuscar.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(917, 450);
+            this.ClientSize = new System.Drawing.Size(917, 543);
             this.Controls.Add(this.gbalumno);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -191,9 +231,13 @@
         private System.Windows.Forms.Label lblid;
         private System.Windows.Forms.Button btnmodificar;
         private System.Windows.Forms.Button btneliminar;
-        private System.Windows.Forms.Button btnprueba;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.DataGridView dgvalumnos;
+        private System.Windows.Forms.Label lblbuscarnombre;
+        private System.Windows.Forms.Label lblbuscarapellido;
+        private System.Windows.Forms.TextBox txtbuscarapellido;
+        private System.Windows.Forms.TextBox txtbuscarnombre;
+        private System.Windows.Forms.Button btnbuscar;
     }
 }
 
