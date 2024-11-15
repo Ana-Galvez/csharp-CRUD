@@ -117,4 +117,408 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnbuscar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 444</value>
+  </data>
+  <data name="btnbuscar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnbuscar.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnbuscar.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="&gt;&gt;btnbuscar.Name" xml:space="preserve">
+    <value>btnbuscar</value>
+  </data>
+  <data name="&gt;&gt;btnbuscar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnbuscar.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;btnbuscar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtbuscarapellido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 390</value>
+  </data>
+  <data name="txtbuscarapellido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 20</value>
+  </data>
+  <data name="txtbuscarapellido.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtbuscarapellido.Name" xml:space="preserve">
+    <value>txtbuscarapellido</value>
+  </data>
+  <data name="&gt;&gt;txtbuscarapellido.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbuscarapellido.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;txtbuscarapellido.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtbuscarnombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 344</value>
+  </data>
+  <data name="txtbuscarnombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 20</value>
+  </data>
+  <data name="txtbuscarnombre.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtbuscarnombre.Name" xml:space="preserve">
+    <value>txtbuscarnombre</value>
+  </data>
+  <data name="&gt;&gt;txtbuscarnombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbuscarnombre.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;txtbuscarnombre.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblbuscarnombre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblbuscarnombre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 351</value>
+  </data>
+  <data name="lblbuscarnombre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="lblbuscarnombre.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblbuscarnombre.Text" xml:space="preserve">
+    <value>Buscar por Nombre</value>
+  </data>
+  <data name="&gt;&gt;lblbuscarnombre.Name" xml:space="preserve">
+    <value>lblbuscarnombre</value>
+  </data>
+  <data name="&gt;&gt;lblbuscarnombre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblbuscarnombre.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;lblbuscarnombre.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblbuscarapellido.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblbuscarapellido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 393</value>
+  </data>
+  <data name="lblbuscarapellido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="lblbuscarapellido.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblbuscarapellido.Text" xml:space="preserve">
+    <value>Buscar por Apellido</value>
+  </data>
+  <data name="&gt;&gt;lblbuscarapellido.Name" xml:space="preserve">
+    <value>lblbuscarapellido</value>
+  </data>
+  <data name="&gt;&gt;lblbuscarapellido.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblbuscarapellido.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;lblbuscarapellido.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnmodificar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 265</value>
+  </data>
+  <data name="btnmodificar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="btnmodificar.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnmodificar.Text" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="&gt;&gt;btnmodificar.Name" xml:space="preserve">
+    <value>btnmodificar</value>
+  </data>
+  <data name="&gt;&gt;btnmodificar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnmodificar.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;btnmodificar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btneliminar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 265</value>
+  </data>
+  <data name="btneliminar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="btneliminar.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btneliminar.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="&gt;&gt;btneliminar.Name" xml:space="preserve">
+    <value>btneliminar</value>
+  </data>
+  <data name="&gt;&gt;btneliminar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btneliminar.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;btneliminar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnguardar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 213</value>
+  </data>
+  <data name="btnguardar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 23</value>
+  </data>
+  <data name="btnguardar.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnguardar.Text" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="&gt;&gt;btnguardar.Name" xml:space="preserve">
+    <value>btnguardar</value>
+  </data>
+  <data name="&gt;&gt;btnguardar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnguardar.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;btnguardar.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="dgvalumnos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 22</value>
+  </data>
+  <data name="dgvalumnos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>397, 445</value>
+  </data>
+  <data name="dgvalumnos.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dgvalumnos.Name" xml:space="preserve">
+    <value>dgvalumnos</value>
+  </data>
+  <data name="&gt;&gt;dgvalumnos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvalumnos.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;dgvalumnos.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtnombres.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 107</value>
+  </data>
+  <data name="txtnombres.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 20</value>
+  </data>
+  <data name="txtnombres.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtnombres.Name" xml:space="preserve">
+    <value>txtnombres</value>
+  </data>
+  <data name="&gt;&gt;txtnombres.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtnombres.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;txtnombres.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtapellido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 154</value>
+  </data>
+  <data name="txtapellido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 20</value>
+  </data>
+  <data name="txtapellido.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtapellido.Name" xml:space="preserve">
+    <value>txtapellido</value>
+  </data>
+  <data name="&gt;&gt;txtapellido.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtapellido.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;txtapellido.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 59</value>
+  </data>
+  <data name="txtid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 20</value>
+  </data>
+  <data name="txtid.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtid.Name" xml:space="preserve">
+    <value>txtid</value>
+  </data>
+  <data name="&gt;&gt;txtid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtid.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;txtid.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblnombres.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblnombres.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 107</value>
+  </data>
+  <data name="lblnombres.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblnombres.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblnombres.Text" xml:space="preserve">
+    <value>Nombres</value>
+  </data>
+  <data name="&gt;&gt;lblnombres.Name" xml:space="preserve">
+    <value>lblnombres</value>
+  </data>
+  <data name="&gt;&gt;lblnombres.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblnombres.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;lblnombres.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblapellido.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblapellido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 157</value>
+  </data>
+  <data name="lblapellido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblapellido.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblapellido.Text" xml:space="preserve">
+    <value>Apellido</value>
+  </data>
+  <data name="&gt;&gt;lblapellido.Name" xml:space="preserve">
+    <value>lblapellido</value>
+  </data>
+  <data name="&gt;&gt;lblapellido.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblapellido.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;lblapellido.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 59</value>
+  </data>
+  <data name="lblid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="lblid.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblid.Text" xml:space="preserve">
+    <value>ID Alumno</value>
+  </data>
+  <data name="&gt;&gt;lblid.Name" xml:space="preserve">
+    <value>lblid</value>
+  </data>
+  <data name="&gt;&gt;lblid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblid.Parent" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;lblid.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="gbalumno.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 12</value>
+  </data>
+  <data name="gbalumno.Size" type="System.Drawing.Size, System.Drawing">
+    <value>824, 519</value>
+  </data>
+  <data name="gbalumno.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbalumno.Text" xml:space="preserve">
+    <value>Datos del Alumno</value>
+  </data>
+  <data name="&gt;&gt;gbalumno.Name" xml:space="preserve">
+    <value>gbalumno</value>
+  </data>
+  <data name="&gt;&gt;gbalumno.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbalumno.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbalumno.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>es-419</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>917, 543</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Datos de los Alumnos</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

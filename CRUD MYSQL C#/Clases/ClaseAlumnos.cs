@@ -104,7 +104,7 @@ namespace CRUD_MYSQL_C_.Clases
             try
             {
                 ClaseConexion objetoConexion = new ClaseConexion();
-                string query = "select * from alumnos where nombres like '" + buscarNombre.Text + "'%;";
+                string query = "select * from alumnos where nombres like '" + buscarNombre.Text + "%';";
                 MySqlCommand command = new MySqlCommand(query, objetoConexion.EstablecerConexion());
                 MySqlDataReader reader = command.ExecuteReader();
 
