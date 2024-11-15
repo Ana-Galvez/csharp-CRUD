@@ -203,6 +203,7 @@
             this.btnbuscar.TabIndex = 15;
             this.btnbuscar.Text = "Buscar";
             this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // Form1
             // 

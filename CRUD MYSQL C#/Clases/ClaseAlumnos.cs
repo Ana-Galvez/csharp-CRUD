@@ -99,5 +99,21 @@ namespace CRUD_MYSQL_C_.Clases
             nombres.Text = "";
             apellido.Text = "";
         }
+        public void buscarAlumnoXNombre(TextBox buscarNombre)
+        {
+            try
+            {
+                ClaseConexion objetoConexion = new ClaseConexion();
+                string query = "select * from alumnos where nombres like '" + buscarNombre.Text + "'%;";
+                MySqlCommand command = new MySqlCommand(query, objetoConexion.EstablecerConexion());
+                MySqlDataReader reader = command.ExecuteReader();
+
+                objetoConexion.CerrarConexion();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pudo mostrar la información solicitada. Error: " + ex.ToString());
+            }
+        }
     }
 }

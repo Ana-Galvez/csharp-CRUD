@@ -60,6 +60,12 @@ namespace CRUD_MYSQL_C_
             objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
         }
 
-
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+            Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
+            objetoAlumnos.buscarAlumnoXNombre(txtbuscarnombre);
+            objetoAlumnos.MostrarAlumnos(dgvalumnos);
+            objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
+        }
     }
 }
