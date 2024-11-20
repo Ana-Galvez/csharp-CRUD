@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gbalumno = new System.Windows.Forms.GroupBox();
+            this.btnmostrartabla = new System.Windows.Forms.Button();
             this.btnbuscar = new System.Windows.Forms.Button();
             this.txtbuscarapellido = new System.Windows.Forms.TextBox();
             this.txtbuscarnombre = new System.Windows.Forms.TextBox();
@@ -45,7 +46,6 @@
             this.lblnombres = new System.Windows.Forms.Label();
             this.lblapellido = new System.Windows.Forms.Label();
             this.lblid = new System.Windows.Forms.Label();
-            this.btnmostrartabla = new System.Windows.Forms.Button();
             this.gbalumno.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvalumnos)).BeginInit();
             this.SuspendLayout();
@@ -72,12 +72,19 @@
             this.gbalumno.Name = "gbalumno";
             this.gbalumno.TabStop = false;
             // 
+            // btnmostrartabla
+            // 
+            resources.ApplyResources(this.btnmostrartabla, "btnmostrartabla");
+            this.btnmostrartabla.Name = "btnmostrartabla";
+            this.btnmostrartabla.UseVisualStyleBackColor = true;
+            this.btnmostrartabla.Click += new System.EventHandler(this.btnmostrartabla_Click);
+            // 
             // btnbuscar
             // 
             resources.ApplyResources(this.btnbuscar, "btnbuscar");
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.UseVisualStyleBackColor = true;
-            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscarnombre_Click);
             // 
             // txtbuscarapellido
             // 
@@ -88,6 +95,7 @@
             // 
             resources.ApplyResources(this.txtbuscarnombre, "txtbuscarnombre");
             this.txtbuscarnombre.Name = "txtbuscarnombre";
+            this.txtbuscarnombre.TextChanged += new System.EventHandler(this.txtbuscarnombre_TextChanged);
             // 
             // lblbuscarnombre
             // 
@@ -160,13 +168,6 @@
             // 
             resources.ApplyResources(this.lblid, "lblid");
             this.lblid.Name = "lblid";
-            // 
-            // btnmostrartabla
-            // 
-            resources.ApplyResources(this.btnmostrartabla, "btnmostrartabla");
-            this.btnmostrartabla.Name = "btnmostrartabla";
-            this.btnmostrartabla.UseVisualStyleBackColor = true;
-            this.btnmostrartabla.Click += new System.EventHandler(this.btnmostrartabla_Click);
             // 
             // Form1
             // 

@@ -99,7 +99,7 @@ namespace CRUD_MYSQL_C_.Clases
             nombres.Text = "";
             apellido.Text = "";
         }
-        public void buscarAlumnoXNombre(DataGridView tabla,TextBox buscarNombre, TextBox buscarApellido)
+        public void buscarAlumnoXNombre(DataGridView tabla,TextBox buscarNombre)
         {
             try
             {
@@ -119,5 +119,6 @@ namespace CRUD_MYSQL_C_.Clases
                 MessageBox.Show("No se pudo mostrar la información solicitada. Error: " + ex.Message);
             }
         }
+ 
     }
 }
