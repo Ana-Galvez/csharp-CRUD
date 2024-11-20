@@ -51,6 +51,7 @@
             // 
             // gbalumno
             // 
+            resources.ApplyResources(this.gbalumno, "gbalumno");
             this.gbalumno.Controls.Add(this.btnbuscar);
             this.gbalumno.Controls.Add(this.txtbuscarapellido);
             this.gbalumno.Controls.Add(this.txtbuscarnombre);
@@ -66,7 +67,6 @@
             this.gbalumno.Controls.Add(this.lblnombres);
             this.gbalumno.Controls.Add(this.lblapellido);
             this.gbalumno.Controls.Add(this.lblid);
-            resources.ApplyResources(this.gbalumno, "gbalumno");
             this.gbalumno.Name = "gbalumno";
             this.gbalumno.TabStop = false;
             // 
@@ -86,6 +86,7 @@
             // 
             resources.ApplyResources(this.txtbuscarnombre, "txtbuscarnombre");
             this.txtbuscarnombre.Name = "txtbuscarnombre";
+            this.txtbuscarnombre.TextChanged += new System.EventHandler(this.txtbuscarnombre_TextChanged);
             // 
             // lblbuscarnombre
             // 
@@ -120,10 +121,10 @@
             // 
             // dgvalumnos
             // 
+            resources.ApplyResources(this.dgvalumnos, "dgvalumnos");
             this.dgvalumnos.AllowUserToAddRows = false;
             this.dgvalumnos.AllowUserToDeleteRows = false;
             this.dgvalumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dgvalumnos, "dgvalumnos");
             this.dgvalumnos.Name = "dgvalumnos";
             this.dgvalumnos.ReadOnly = true;
             this.dgvalumnos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvalumnos_CellDoubleClick);

@@ -99,19 +99,19 @@ namespace CRUD_MYSQL_C_.Clases
             nombres.Text = "";
             apellido.Text = "";
         }
-        public void buscarAlumnoXNombre(TextBox buscarNombre)
+        public void buscarAlumnoXNombre(DataGridView tabla,TextBox buscarNombre)
         {
             try
             {
                 ClaseConexion objetoConexion = new ClaseConexion();
-                DataGridView tablaAlumnos = new DataGridView();
+                string query = "select * from alumnos where nombres like '" + buscarNombre.Text + "%';";
+                MySqlCommand command = new MySqlCommand(query,objetoConexion.EstablecerConexion());
+                command.ExecuteNonQuery();
                 DataTable dataTable = new DataTable();
-                tablaAlumnos.DataSource = dataTable;
-                DataView dv = dataTable.DefaultView;
-                dv.RowFilter = string.Format("nombres like '%{0}%'",buscarNombre.Text);
-                tablaAlumnos.DataSource = dv.ToTable();
-                //string query = "select * from alumnos where nombres like '" + buscarNombre + "%';";
-
+                MySqlDataAdapter da = new MySqlDataAdapter(command);
+                da.Fill(dataTable);
+                tabla.DataSource=dataTable.DefaultView;
+                                
                 objetoConexion.CerrarConexion();
             }
             catch (Exception ex)
