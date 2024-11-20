@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gbalumno = new System.Windows.Forms.GroupBox();
             this.btnmostrartabla = new System.Windows.Forms.Button();
-            this.btnbuscar = new System.Windows.Forms.Button();
             this.txtbuscarapellido = new System.Windows.Forms.TextBox();
             this.txtbuscarnombre = new System.Windows.Forms.TextBox();
             this.lblbuscarnombre = new System.Windows.Forms.Label();
@@ -53,7 +52,6 @@
             // gbalumno
             // 
             this.gbalumno.Controls.Add(this.btnmostrartabla);
-            this.gbalumno.Controls.Add(this.btnbuscar);
             this.gbalumno.Controls.Add(this.txtbuscarapellido);
             this.gbalumno.Controls.Add(this.txtbuscarnombre);
             this.gbalumno.Controls.Add(this.lblbuscarnombre);
@@ -79,17 +77,11 @@
             this.btnmostrartabla.UseVisualStyleBackColor = true;
             this.btnmostrartabla.Click += new System.EventHandler(this.btnmostrartabla_Click);
             // 
-            // btnbuscar
-            // 
-            resources.ApplyResources(this.btnbuscar, "btnbuscar");
-            this.btnbuscar.Name = "btnbuscar";
-            this.btnbuscar.UseVisualStyleBackColor = true;
-            this.btnbuscar.Click += new System.EventHandler(this.btnbuscarnombre_Click);
-            // 
             // txtbuscarapellido
             // 
             resources.ApplyResources(this.txtbuscarapellido, "txtbuscarapellido");
             this.txtbuscarapellido.Name = "txtbuscarapellido";
+            this.txtbuscarapellido.TextChanged += new System.EventHandler(this.txtbuscarapellido_TextChanged);
             // 
             // txtbuscarnombre
             // 
@@ -200,7 +192,6 @@
         private System.Windows.Forms.Label lblbuscarapellido;
         private System.Windows.Forms.TextBox txtbuscarapellido;
         private System.Windows.Forms.TextBox txtbuscarnombre;
-        private System.Windows.Forms.Button btnbuscar;
         private System.Windows.Forms.Button btnmostrartabla;
     }
 }

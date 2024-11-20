@@ -119,6 +119,25 @@ namespace CRUD_MYSQL_C_.Clases
                 MessageBox.Show("No se pudo mostrar la información solicitada. Error: " + ex.Message);
             }
         }
- 
+        public void buscarAlumnoXApellido(DataGridView tabla, TextBox buscarApellido)
+        {
+            try
+            {
+                ClaseConexion objetoConexion = new ClaseConexion();
+                string query = "select * from alumnos where apellido like '" + buscarApellido.Text + "%';";
+                MySqlCommand command = new MySqlCommand(query, objetoConexion.EstablecerConexion());
+                command.ExecuteNonQuery();
+                DataTable dataTable = new DataTable();
+                MySqlDataAdapter da = new MySqlDataAdapter(command);
+                da.Fill(dataTable);
+                tabla.DataSource = dataTable.DefaultView;
+
+                objetoConexion.CerrarConexion();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("No se pudo mostrar la información solicitada. Error: " + ex.Message);
+            }
+        }
     }
 }

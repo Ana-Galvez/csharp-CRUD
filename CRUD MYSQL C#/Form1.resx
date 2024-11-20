@@ -143,30 +143,6 @@
   <data name="&gt;&gt;btnmostrartabla.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btnbuscar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>138, 444</value>
-  </data>
-  <data name="btnbuscar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 23</value>
-  </data>
-  <data name="btnbuscar.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="btnbuscar.Text" xml:space="preserve">
-    <value>Buscar</value>
-  </data>
-  <data name="&gt;&gt;btnbuscar.Name" xml:space="preserve">
-    <value>btnbuscar</value>
-  </data>
-  <data name="&gt;&gt;btnbuscar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnbuscar.Parent" xml:space="preserve">
-    <value>gbalumno</value>
-  </data>
-  <data name="&gt;&gt;btnbuscar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="txtbuscarapellido.Location" type="System.Drawing.Point, System.Drawing">
     <value>138, 390</value>
   </data>
@@ -186,7 +162,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;txtbuscarapellido.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="txtbuscarnombre.Location" type="System.Drawing.Point, System.Drawing">
     <value>138, 344</value>
@@ -207,7 +183,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;txtbuscarnombre.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="lblbuscarnombre.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -234,7 +210,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;lblbuscarnombre.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="lblbuscarapellido.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -261,7 +237,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;lblbuscarapellido.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="btnmodificar.Location" type="System.Drawing.Point, System.Drawing">
     <value>49, 265</value>
@@ -285,7 +261,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;btnmodificar.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="btneliminar.Location" type="System.Drawing.Point, System.Drawing">
     <value>227, 265</value>
@@ -309,7 +285,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;btneliminar.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="btnguardar.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 213</value>
@@ -333,7 +309,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;btnguardar.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="dgvalumnos.Location" type="System.Drawing.Point, System.Drawing">
     <value>421, 22</value>
@@ -354,7 +330,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;dgvalumnos.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="txtnombres.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 107</value>
@@ -375,7 +351,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;txtnombres.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="txtapellido.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 154</value>
@@ -396,7 +372,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;txtapellido.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="txtid.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 59</value>
@@ -417,7 +393,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;txtid.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="lblnombres.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -444,7 +420,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;lblnombres.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="lblapellido.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -471,7 +447,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;lblapellido.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>13</value>
   </data>
   <data name="lblid.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -498,7 +474,7 @@
     <value>gbalumno</value>
   </data>
   <data name="&gt;&gt;lblid.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>14</value>
   </data>
   <data name="gbalumno.Location" type="System.Drawing.Point, System.Drawing">
     <value>81, 12</value>

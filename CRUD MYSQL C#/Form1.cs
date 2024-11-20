@@ -59,14 +59,6 @@ namespace CRUD_MYSQL_C_
             objetoAlumnos.MostrarAlumnos(dgvalumnos);
             objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
         }
-
-        private void btnbuscarnombre_Click(object sender, EventArgs e)
-        {
-            Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
-            objetoAlumnos.buscarAlumnoXNombre(dgvalumnos,txtbuscarnombre);
-            objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
-        }
-
         private void btnmostrartabla_Click(object sender, EventArgs e)
         {
             Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
@@ -80,6 +72,11 @@ namespace CRUD_MYSQL_C_
             objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
         }
 
-
+        private void txtbuscarapellido_TextChanged(object sender, EventArgs e)
+        {
+            Clases.ClaseAlumnos objetoAlumnos = new Clases.ClaseAlumnos();
+            objetoAlumnos.buscarAlumnoXApellido(dgvalumnos, txtbuscarapellido);
+            objetoAlumnos.limpiarTextBox(txtid, txtnombres, txtapellido);
+        }
     }
 }
