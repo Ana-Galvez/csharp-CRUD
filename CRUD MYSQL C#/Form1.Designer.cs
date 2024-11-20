@@ -45,13 +45,14 @@
             this.lblnombres = new System.Windows.Forms.Label();
             this.lblapellido = new System.Windows.Forms.Label();
             this.lblid = new System.Windows.Forms.Label();
+            this.btnmostrartabla = new System.Windows.Forms.Button();
             this.gbalumno.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvalumnos)).BeginInit();
             this.SuspendLayout();
             // 
             // gbalumno
             // 
-            resources.ApplyResources(this.gbalumno, "gbalumno");
+            this.gbalumno.Controls.Add(this.btnmostrartabla);
             this.gbalumno.Controls.Add(this.btnbuscar);
             this.gbalumno.Controls.Add(this.txtbuscarapellido);
             this.gbalumno.Controls.Add(this.txtbuscarnombre);
@@ -67,6 +68,7 @@
             this.gbalumno.Controls.Add(this.lblnombres);
             this.gbalumno.Controls.Add(this.lblapellido);
             this.gbalumno.Controls.Add(this.lblid);
+            resources.ApplyResources(this.gbalumno, "gbalumno");
             this.gbalumno.Name = "gbalumno";
             this.gbalumno.TabStop = false;
             // 
@@ -86,7 +88,6 @@
             // 
             resources.ApplyResources(this.txtbuscarnombre, "txtbuscarnombre");
             this.txtbuscarnombre.Name = "txtbuscarnombre";
-            this.txtbuscarnombre.TextChanged += new System.EventHandler(this.txtbuscarnombre_TextChanged);
             // 
             // lblbuscarnombre
             // 
@@ -121,10 +122,10 @@
             // 
             // dgvalumnos
             // 
-            resources.ApplyResources(this.dgvalumnos, "dgvalumnos");
             this.dgvalumnos.AllowUserToAddRows = false;
             this.dgvalumnos.AllowUserToDeleteRows = false;
             this.dgvalumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dgvalumnos, "dgvalumnos");
             this.dgvalumnos.Name = "dgvalumnos";
             this.dgvalumnos.ReadOnly = true;
             this.dgvalumnos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvalumnos_CellDoubleClick);
@@ -160,6 +161,13 @@
             resources.ApplyResources(this.lblid, "lblid");
             this.lblid.Name = "lblid";
             // 
+            // btnmostrartabla
+            // 
+            resources.ApplyResources(this.btnmostrartabla, "btnmostrartabla");
+            this.btnmostrartabla.Name = "btnmostrartabla";
+            this.btnmostrartabla.UseVisualStyleBackColor = true;
+            this.btnmostrartabla.Click += new System.EventHandler(this.btnmostrartabla_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -192,6 +200,7 @@
         private System.Windows.Forms.TextBox txtbuscarapellido;
         private System.Windows.Forms.TextBox txtbuscarnombre;
         private System.Windows.Forms.Button btnbuscar;
+        private System.Windows.Forms.Button btnmostrartabla;
     }
 }
 

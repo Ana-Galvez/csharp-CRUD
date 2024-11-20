@@ -99,7 +99,7 @@ namespace CRUD_MYSQL_C_.Clases
             nombres.Text = "";
             apellido.Text = "";
         }
-        public void buscarAlumnoXNombre(DataGridView tabla,TextBox buscarNombre)
+        public void buscarAlumnoXNombre(DataGridView tabla,TextBox buscarNombre, TextBox buscarApellido)
         {
             try
             {
